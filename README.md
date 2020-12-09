@@ -9,5 +9,5 @@ Written Proposal
 This project would be a textbook style code. It would overview quickly, with no more than 1 page combined, the theory of what integration does, as well as the single integration of the 2 methods mentioned above, composite midpoint and composite trapezoidal. Then, it will go over the theory of how to do double integrals, using two examples, a circle and a non trivially integrable function. Then, it will go over the triple integral methods, and will go over two more examples, a sphere and a non trivially integrable function. It will use these examples to derive the formula for double and triple integrals of both the composite midpoint method and composite trapezoidal methods. This is expected to take about 7 or 8 pages, which means that 1 or 2 pages are left, which will be exercises left for the reader, which happen to be more examples that will be provided in the code proposal.
 
 
-UPDATE:
-As of now, we will only be going over main2.m, compMid2.m, and compTrap2.m, the X3.m files are no longer relevant to our project. Additionally, main2.m and compMid2.m are completed.
+UPDATE (December 9):
+As of recently (November 30), we will only be going over main2.m, compMid2.m, and compTrap2.m, the X3.m files are no longer relevant to our project. Additionally, main2.m and compMid2.m are completed.
