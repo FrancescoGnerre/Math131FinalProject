@@ -27,11 +27,6 @@ function I = compMid2(f, ax, ay, bx, by, N)
             % q will measure x
             % o will measure y
             
-            avgx = (px(q)+px(q+1))/2;
-            % avgx will calculate the midpoint in x
-            avgy = (py(o)+py(o+1))/2;
-            % avgy will calculate the midpoint in y
-            
             I = I + f(((px(q)+px(q+1))/2),((py(o)+py(o+1))/2))*delx*dely;
             % increments I by the height at the midpoints
         end

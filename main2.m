@@ -5,13 +5,9 @@ N = 10000;
 % Number of divisions (for N+1 intervals)
 
 % f(x,y) is needed as input
-% https://hplgit.github.io/prog4comp/doc/pub/._p4c-solarized-Matlab017.html
-% excersie 41 is of interest
-% DELETE LATERE
-
 
 %% TEST CASES GO HERE
-for q = 6:6
+for q = 1:6
     % for q = 1 to number of tests
     % Loop ONLY sets which funtion set is the test case
     switch q
@@ -128,9 +124,14 @@ for q = 6:6
     
     % here, we check each of 6 test cases against both functions
     composite_midpoint_rule = compMid2(f, ax, ay, bx, by, N)
+    cm(q)= composite_midpoint_rule;
     % m is the composite midpoint function over a double integral
     % midpoint should be interpited as the geometric centre of a section
-    composite_trapezoidal_rule = compTrap2(f, ax, ay, bx, by, N)
+     composite_trapezoidal_rule = compTrap2(f, ax, ay, bx, by, N)
+     ct(q) = composite_trapezoidal_rule;
     % t is the composite trapezoidal rule over a double integral
     % trapezoid should be interprted as the average of a sectoin
 end
+
+cm
+cq
