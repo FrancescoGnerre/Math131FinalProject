@@ -10,8 +10,8 @@ The code provided for this project would start with the base of the composite mi
 Use
 Feel free to use code from this repository as you see fit. Please do remember to give credit to the authors.
 
-UPDATE (December 9):
-As of recently (November 30), we will only be going over main2.m, compMid2.m, and compTrap2.m, the X3.m files are no longer relevant to our project. Additionally, main2.m and compMid2.m are completed.
+UPDATE (December 9, 2020):
+As of recently (November 30, 2020), we will only be going over main2.m, compMid2.m, and compTrap2.m, the X3.m files are no longer relevant to our project. Additionally, main2.m and compMid2.m are completed.
 
-Update (December 10):
+Update (December 10, 2020):
 Removed main3.m, compMid3.m, and compTrap3.m files from repository. Additionally removed reference to them from README.txt, as well as the written proposal as both are outside the scope of this repository.
